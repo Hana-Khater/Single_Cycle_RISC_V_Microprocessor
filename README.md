@@ -89,5 +89,5 @@ The machine code was loaded into the instruction memory using the command ``` $r
 ```Verilog
 /*loading test program into the instruction memory*/
     initial
-	$readmemh ("program.txt", instr, 0);
+	$readmemh("P.txt",ROM,0);
 ```
